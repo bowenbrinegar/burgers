@@ -19,7 +19,7 @@ var routes = require("./controllers/controller.js");
 
 app.use('/', routes);
 
-reload(app, {route: '/'});
-
-app.listen(port, data => console.log(port));
+app.listen(port, function() {
+  console.log(port)
+});
 
