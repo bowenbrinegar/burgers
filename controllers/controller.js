@@ -15,7 +15,7 @@ router.get("/", function(req, res) {
   });
 });
 
-router.post("/", function(req, res) {
+router.put("/", function(req, res) {
   burger.create([
     "name", "devoured"
   ], [

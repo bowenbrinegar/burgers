@@ -1,6 +1,5 @@
 var express = require("express");
 var bodyParser = require("body-parser");
-var reload = require('reload');
 
 var port = 3000;
 
